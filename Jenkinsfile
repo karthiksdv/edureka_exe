@@ -32,7 +32,7 @@ pipeline{
 						agent {
 							docker {
 								reuseNode false
-								image 'ubantu'
+								image 'python:alpine'
 								}
 							}
 				steps {
